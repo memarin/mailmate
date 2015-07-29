@@ -1,0 +1,2 @@
+# mailmate
+MailMate Key Bindings
