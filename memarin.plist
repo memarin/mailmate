@@ -1,0 +1,19 @@
+------------------------------------
+// MEMARIN Edit
+{
+  "\\" = "showThread:";
+  "`"  = "showCorrespondence:";
+
+  /* Copied from https://github.com/chauncey-garrett/mailmate/blob/master/KeyBindings/gmail-extended.plist */
+  "g" = {
+      "a" = ( "goToMailbox:", "ALL_MESSAGES" );
+      "s" = ( "goToMailbox:", "FLAGGED" );
+      /* TODO: g then c = Go to 'Contacts' takes you to your Contacts list. */
+      "d" = ( "goToMailbox:", "DRAFTS" );
+      "g" = "selectFirstMessageRow:"; /* gg, like in Vim */
+      "l" = "goToMailbox:";
+      "i" = ( "goToMailbox:", "INBOX" );
+      "t" = ( "goToMailbox:", "SENT" );
+      "u" = ( "goToMailbox:", "411D9578-C614-4583-87CE-4A15877A5192" ); /* Goto smart mailbox, Unread. Obtain the UUID from  ~/Library/Application Support/MailMate/Mailboxes.plist */
+  };
+}
