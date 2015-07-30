@@ -16,4 +16,8 @@
       "t" = ( "goToMailbox:", "SENT" );
       "u" = ( "goToMailbox:", "411D9578-C614-4583-87CE-4A15877A5192" ); /* Goto smart mailbox, Unread. Obtain the UUID from  ~/Library/Application Support/MailMate/Mailboxes.plist */
   };
+
+  "*" = {
+    "A" = ( "mailboxSetTag:", "setTag:", "\\Seen" );
+  };
 }
